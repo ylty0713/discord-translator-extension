@@ -1,0 +1,37 @@
+.discord-translator-button {
+  margin-left: 8px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.78);
+  color: #e2e8f0;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+  transition: transform 140ms ease, background-color 140ms ease, opacity 140ms ease;
+}
+
+.discord-translator-button:hover {
+  transform: translateY(-1px);
+  background: rgba(15, 118, 110, 0.85);
+}
+
+.discord-translator-result {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(15, 118, 110, 0.12);
+  border: 1px solid rgba(45, 212, 191, 0.15);
+}
+
+.discord-translator-original {
+  color: #94a3b8;
+  font-size: 12px;
+  margin-bottom: 4px;
+  white-space: pre-wrap;
+}
+
+.discord-translator-translated {
+  color: #ecfeff;
+  font-size: 13px;
+  white-space: pre-wrap;
+}
